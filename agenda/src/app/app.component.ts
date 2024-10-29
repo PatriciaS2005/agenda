@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
-})
-export class AppComponent {
-  title = 'agenda';
-}
+    templateUrl: './app.component.html',
+      styleUrls: ['./app.component.css']
+      })
+      export class AppComponent {
+        title = 'agenda'; // ou qualquer outro nome que você tenha dado
+      }
+       
